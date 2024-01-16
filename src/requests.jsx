@@ -1,4 +1,4 @@
-const API_KEY = import.meta.env.VITE_API_KEY;
+const API_KEY = feefcf5551b334d0348e7aace0199dc2;
 
 // Request for movies
 const requests = {
