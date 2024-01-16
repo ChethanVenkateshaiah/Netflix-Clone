@@ -5,7 +5,7 @@ import axios from "../../axios";
 const Row = ({ title, fetchUrl, isLargeRow = false }) => {
 	const [movies, setMovies] = useState([]);
 	// For the images
-	const base_url = "https://image.tmdb.org/t/p/original/";
+	const base_url = "https://api.themoviedb.org/3";
 
 	useEffect(() => {
 		async function fetchData() {
